@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', cursive;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    font-size: 10vmin;
+    color: teal;
+}
+
+h1 {
+    margin-top: 3vmin;
+    margin-bottom: 5vmin;
+    color: turquoise;
+    font-size: 5vmin;
+}
+
+#board {
+    display: grid;
+    grid-template-columns: repeat(3, 20vmin);
+    grid-template-rows: repeat(3, 20vmin);
+    background-color: lightgrey;
+    border-radius: 1vmin;
+  }
+
+#board > div {
+    margin: 1vmin; 
+    background-color: white;   
+    border: 1vmin solid gray;
+    border-radius: 10%;
+}
+
+h2 {
+    margin-top: 3vmin;
+}
+
+button {
+    margin-top: 0.5 vmin;
+    padding: 2vmin;
+    font-size: 3vmin;
+    border: 0.5vmin solid blue;
+    color: grey;
+}
+
+button:hover {
+    color: aqua;
+    background: purple;
+}
